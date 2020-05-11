@@ -1,0 +1,39 @@
+h1
+{
+	background: #048838f2;
+	font-size: 150%;
+}
+
+
+
+body
+{
+	background-color: #96dc0e87;
+}
+
+header
+{
+	background: #0f713bf7;
+	text-align: center;
+}
+
+
+
+h1
+{
+	color: #e7fdebeb;
+}
+
+nav
+{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Ariel, "Times New Roman", serif;
+	color: #310c0cfa;
+}
+
+h2
+{
+	color: #e7fdebeb;
+	background-color: #0c610be8;
+}

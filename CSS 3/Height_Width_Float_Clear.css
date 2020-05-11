@@ -4,6 +4,7 @@ span
     width: 80px;
     background-color: #F0AA9F;
     display: inline-block;
+    float: right;
 }
 
 div
@@ -12,11 +13,13 @@ div
     width: 300px;
     background-color: #B0AADD;
     display: inline-block;
+    float: left;
 }
 
 p
 {
 	height: 100px;
-	width: 150px;
-	background-color: #88E85A;
+    width: 150px;
+    background-color: #88E85A;
+    clear: both;
 }

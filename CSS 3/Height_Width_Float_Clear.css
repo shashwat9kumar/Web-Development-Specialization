@@ -1,15 +1,17 @@
 span
 {
-	height: 30px;
-	width: 50px;
-	background-color: #F0AA9F;
+	height: 50px;
+    width: 80px;
+    background-color: #F0AA9F;
+    display: inline-block;
 }
 
 div
 {
 	height: 70px;
-	width: 300px;
-	background-color: #B0AADD;
+    width: 300px;
+    background-color: #B0AADD;
+    display: inline-block;
 }
 
 p

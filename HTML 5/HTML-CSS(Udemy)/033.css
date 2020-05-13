@@ -1,0 +1,35 @@
+#sec_para
+{
+	color:darkblue; 
+	background-color:lightgreen;
+}
+
+.main_class
+{
+	color: brown;
+	
+	
+}
+
+.back_color
+{
+	background-color: silver;
+	
+}
+
+a:link           /*Maintain this order : link, visited, hover , active */
+{
+	color: red;
+}
+a:visited
+{
+	color: green;
+}
+a:hover
+{
+	color: yellow;
+}
+a:active
+{
+	color:blue;
+}

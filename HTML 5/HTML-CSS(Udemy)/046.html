@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Forms</title>
+		
+		<style>
+		
+			form
+			{
+				width: 500px;
+				background: #aee4d066;
+				padding: 20px;
+				border: 2px solid grey;
+				margin: 0 auto; /*  0 from top and bottom and auto from left and right */
+				
+			}
+			
+			input[type='text'], input[type='password'] , select
+			{
+				width: 372px;
+				height: 20px;
+				border: none;
+				border-bottom: 1px solid darkblue;
+				outline: none;
+			}
+			textarea
+			{
+			 resize: none;
+			 border: 1px solid grey;
+			 outline: none;
+			 border: none;
+			}
+			
+			input[type="submit"]
+			{
+				background: #2b3335f5;
+				color: white;
+				border: 2px solid black;
+				width: 372px;
+				height: 30px;
+			}
+			input[type='text']:focus, input[type='password']:focus , select:focus, textarea:focus
+			{
+				background: lightgrey;
+			}
+			
+			input[type='text']:hover, input[type='password']:hover , select:hover, textarea:hover
+			{
+				background: lightgrey;
+			}
+			input[type="submit"]:hover
+			{
+				background-color: lightgrey;
+				color: black;
+			}
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		<form>
+			
+			<h2>Fill the form Please</h2><hr>
+			
+			<table>
+				<tr>
+					<td><label for="user">Username</label></td>
+					<td><input type="text" name="user" id="user"></input></td>
+				</tr>
+				<tr>
+					<td><label for="pass">Password</label></td>
+					<td><input type="password" name="pass" id="pass"></input></td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td>Male : <input type="radio" name="gender" value="male"></input> | Female : <input type="radio" name="gender" value="female"></input></td>
+				</tr>
+				<tr>
+					<td><label>Skills</label></td>
+					<td>HTML : <input type="checkbox" name="skill" value="html"></input> | CSS : <input type="checkbox" name="css" value="css"> </input>| PHP : <input type="checkbox" name="php" value="php"> </input></td>
+				</tr>
+				<tr>
+					<td><label for="country" >Select your country</label></td>
+					<td>
+						<select id="country" name="country">
+							<option value="IN">India</option>
+							<option value="UK">UK</option>
+							<option value="USA">USA</option>
+							<option value="AUS">Australia</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><label for="comments">Comments</label></td>
+					<td><textarea rows="10" cols="50"></textarea></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Submit your value" name="submit"></td>
+				</tr>
+			</table>
+			<label>
+		</form>
+	</body>
+</html>

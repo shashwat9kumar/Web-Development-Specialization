@@ -54,29 +54,83 @@
 	#middle
 	{
 		
-		background: grey;
-		width: 1200px;
-		
 	}
 		#left
 		{
 			
-			background: lightgreen;
+			
 			width: 800px;
-			height: 300px;
+			height: 500px;
 			float: left;
 			
 			
 		}
+			.post
+			{
+				margin: 20px;
+			}
+				.title
+				{
+					background: brown;
+					padding: 10px 7px;
+					color: white;
+					font-size: 25px;
+					font-weight: bold;
+					
+				}
+				.description
+				{
+					background-color: #f1f1f1;
+					padding: 20px;
+				}
+		
 		#right
 		{
 			
-			background: lightblue;
-			width: 400px;
-			height: 300px;
+			width: 360px;
+			height: 500px;
 			float: left;
+			padding: 20px;
 			
 		}
+			#right h2
+			{
+				text-align: center;
+			}
+			#latest_post_group
+			{
+				margin: 10px 0;
+			}
+			.latest_post
+			{
+				background: brown;
+				padding: 10px 0;
+				color: white;
+				text-align: center;
+				margin: 10px 0;
+				
+			}
+			#news_letter
+			{
+				
+			}
+				.news_letter_head
+				{
+					text-align: center;
+					font-size: 25px;
+				}
+				input[type="text"]
+				{
+					width:350px;
+					height: 30px;
+				}
+				input[type="submit"]
+				{
+					width:350px;
+					height: 30px;
+					background: brown;
+					color: white;
+				}
 	#footer
 	{
 		

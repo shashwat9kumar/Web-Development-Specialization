@@ -7,18 +7,18 @@
 
 #container
 {
-	background: silver;
 	width: 1200px;
 	margin: 0 auto;
-	padding: 10px;
 	border: 1px solid black;
+	font-family: arial;
 }
 	#header
 	{
 		
 		background: brown;
-		width: 1200px;
-		height: 100px;
+		width: 1180px;
+		padding: 20px 10px;
+		color: white;
 		
 	}
 	#nav
@@ -26,9 +26,31 @@
 		
 		background: orange;
 		width: 12oopx;
-		height: 50px;
 		
 	}
+		#nav ul
+		{
+			list-style: none;
+			
+		}
+			#nav ul li
+			{
+				float: left;
+				width: 220px;
+				padding: 15px 10px;
+				text-align: center;
+			}
+			#nav ul li:hover
+			{
+				background: #ffd280;
+				color: brown;
+			}
+			
+			#nav a
+			{
+				color: black;
+			}
+	
 	#middle
 	{
 		

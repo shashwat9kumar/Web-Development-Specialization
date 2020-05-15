@@ -128,15 +128,27 @@
 				{
 					width:350px;
 					height: 30px;
+					background: orange;
+					color: black;
+					padding: 10px 0;
+					border: none;
+					font-size: 15px;
+					margin: 10px 0;
+				}
+				
+				input[type="submit"]:hover
+				{
 					background: brown;
 					color: white;
+					
 				}
 	#footer
 	{
 		
 		background: brown;
 		width: 1200px;
-		height: 50px;
-		
+		padding: 20px 0;
+		color: white;
+		text-align: center;
 	}
 	

@@ -39,18 +39,18 @@
 		<form>
 			<h2>Details</h2>
 			<div class="form-group">
-				<label for="username">UserName</label>
-				<input type="text" id="username">
+				<label for="username">UserName *</label>
+				<input type="text" id="username" placeholder="Inset your name" autofocus required>
 			</div>
 			
 			<div class="form-group">
-				<label for="password">Password</label>
-				<input type="password" id="password">
+				<label for="password">Password *</label>
+				<input type="password" id="password" required>
 			</div>
 			
 			<div class="form-group">
-				<label for="username">E-mail</label>
-				<input type="email" id="username">
+				<label for="username">E-mail *</label>
+				<input type="email" id="username" required>
 			</div>
 			
 			<div class="form-group">
@@ -107,9 +107,20 @@
 				<label for="username">URL</label>
 				<input type="url" id="username">
 			</div>
-			<div class="form-group">
 			
-
+			<div class="form-group">
+				<label for="username">Select Country</label>
+				<input list="country">
+				<datalist id="country">
+					<option>INDIA</option>
+					<option>USA</option>
+					<option>UK</option>
+					<option>GERMANY</option>
+					<option>France</option>
+					<option>Guam</option>
+				</datalist>
+			</div>
+			<div class="form-group">
 			
 				<input type="submit" id="submit">
 			</div>

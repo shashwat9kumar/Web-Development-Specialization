@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>HTML and CSS</title>
+		<style>
+			#div1{
+				background: orange;
+				border: 1px solid black;
+				margin: 10px;
+				width: 200px;
+				height: 200px;
+				animation-name: anim1;
+				animation-duration: 5s;
+			}
+			
+			
+			
+			@keyframes anim1
+			{
+				from {background: orange;}
+				to {background: red;}
+			}
+			
+			
+			#div2{
+				background: orange;
+				border: 1px solid black;
+				margin: 10px;
+				width: 200px;
+				height: 200px;
+				animation-name: anim2;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+			
+			
+			
+			@keyframes anim2
+			{
+				0% {background: orange; border-radius: 0;}
+				20% {background: red;border-radius: 30px;}
+				40% {background: brown;border-radius: 70px;}
+				50% {background: orange;border-radius: 100px;}
+				60% {background: orange;border-radius: 70px;}
+				80% {background: orange;border-radius: 30px;}
+				100% {background: orange;border-radius: 0;}
+			}
+			
+			
+			#div3{
+				background: orange;
+				border: 1px solid black;
+				margin: 10px;
+				width: 200px;
+				height: 200px;
+				animation-name: anim3;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+			
+			
+			
+			@keyframes anim3
+			{
+				0% {background: orange; width: 200px;}
+				25% {background: red; width: 300px;}
+				50% {background: brown; width: 400px}
+				75% {background: brown; width: 300px}
+				100% {background: orange; width: 200px}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>
+		<div id="div3"></div>
+		</body>
+</html>

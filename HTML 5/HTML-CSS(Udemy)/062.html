@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>HTML and CSS</title>
+		<style>
+			#div1{
+				background: orange;
+				border: 1px solid black;
+				margin: 10px;
+				width: 200px;
+				height: 200px;
+				color: black;
+				transition: background 4s, width 4s linear;
+			}
+			#div1:hover
+			{
+				background: brown;
+				width: 400px;
+			}
+			
+			
+			#div2{
+				background: orange;
+				border: 1px solid black;
+				margin: 10px;
+				width: 200px;
+				height: 200px;
+				color: black;
+				transition: background 4s, width 4s ease-out;
+			}
+			#div2:hover
+			{
+				background: brown;
+				width: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>
+		</body>
+</html>

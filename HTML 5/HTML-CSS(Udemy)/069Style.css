@@ -8,7 +8,7 @@
 {
 	background: silver;
 	margin: 0 auto;
-	width: 1000px;
+	width: 1350px;
 	height: 1000px;
 }
 	
@@ -22,4 +22,26 @@
 	{
 		padding : 50px 0;
 		font-family: arial;
+		float: left;
+	}
+	
+	nav
+	{
+		float: right;
+	}
+	nav ul
+	{
+		list-style-type: none;
+	}
+	nav ul li 
+	{
+		float: left;
+		padding: 57px 30px;
+		font-size: 20px;
+		font-weight: bold;
+		margin : 0px 2px;
+	}	
+	nav ul li:hover
+	{
+		background: orange;
 	}

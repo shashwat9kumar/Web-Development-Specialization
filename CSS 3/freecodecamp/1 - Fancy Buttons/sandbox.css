@@ -395,7 +395,66 @@ Animated button
 	}
 
 
+/*
+==================
+Toggle swith UI button
+==================
+*/	
+
+
+
+
+.toggle-1
+{
+	font-family: Helvetica, Arial, sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px 0 0 ;
+}
+
+	.toggle-1__input{
+		display: none;
+	}
 	
+	.toggle-1__button{
+		position: relative;
+		display: inline-block;
+		font-size: 1rem;
+		line-height: 20px; 
+		text-transform: uppercase;
+		background-color:#f2395a;
+		border: solid 1px #f2395a;
+		color: white;
+		width: 80px;
+		height: 30px;
+		transition: all 0.3s ease;
+		cursor: pointer;
+	}
+	
+	.toggle-1__button::before {
+		position: absolute;
+		top: 5px;
+		left: 37px;
+		content: "off";
+		display: inline-block;
+		height: 20px;
+		padding: 0 3px;
+		background: white;
+		color: #f2395a;
+		transition: all 0.3s ease;
+	}
+	
+	.toggle-1__input:checked + .toggle-1__button {
+		background: #00b3b4;
+		border: solid 1px #00b3b4;
+	}
+	
+	.toggle-1__input:checked + .toggle-1__button::before {
+		left: 5px;
+		content: "On";
+		color: #00b3b4;
+	}
+
 
 
 

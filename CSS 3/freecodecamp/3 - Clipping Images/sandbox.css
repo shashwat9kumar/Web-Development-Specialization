@@ -13,5 +13,8 @@
 			clip-path: circle(50% at 50% 50%);
 }
 
-
+.clip-image-2
+{
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
 

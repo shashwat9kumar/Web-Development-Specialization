@@ -9,14 +9,22 @@ h1
 body
 {
 	background-color: #96dc0e87;
+	margin: 4%;
 }
 
 header
 {
 	background: #0f713bf7;
 	text-align: center;
+	padding-bottom: 15px;
 }
 
+section {
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin: 1.5%;
+}
 
 
 h1
@@ -36,4 +44,16 @@ h2
 {
 	color: #e7fdebeb;
 	background-color: #0c610be8;
+}
+
+
+footer
+{
+	clear: both;
+	background: #0f713bf7;
+	padding-bottom: 1%;
+}
+
+img {
+	width: 100px;
 }
